@@ -1,0 +1,211 @@
+header {
+  background: white;
+  width: 100%;
+  height: 80px;
+  outline: 1px solid #d8d8d8;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+header a {
+  text-decoration: none;
+  color: #333333;
+}
+header .header-inner {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+header .header-inner .header-li-wh {
+  width: 80px;
+  height: 80px;
+}
+header .header-inner .h-logo {
+  width: 133px;
+  height: 40px;
+  background: url("../img/imgPC-header/data_image_1.png") no-repeat;
+}
+header .header-inner .h-city {
+  height: 100%;
+  text-align: center;
+  line-height: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+header .header-inner .h-city span {
+  display: inline-block;
+  vertical-align: 4px;
+  margin-left: 5px;
+  transition: all linear 0.3s;
+  border-top: 4px solid #666666;
+  border-right: 4px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 4px solid transparent;
+}
+header .header-inner .h-city:hover {
+  outline: 1px solid #d8d8d8;
+}
+header .header-inner .h-city:hover span {
+  transform: rotateZ(180deg);
+}
+header .header-inner nav {
+  margin-left: 40px;
+}
+header .header-inner nav ul {
+  display: flex;
+  text-align: center;
+}
+header .header-inner nav ul a {
+  display: inline-block;
+  line-height: 80px;
+}
+header .header-inner nav ul a:hover {
+  background: #ef4238;
+  color: white;
+}
+header .header-inner .app-download {
+  margin-left: 65px;
+  position: relative;
+}
+header .header-inner .app-download a {
+  display: block;
+  width: 132px;
+  text-align: center;
+  box-sizing: border-box;
+}
+header .header-inner .app-download a .app-icon {
+  display: inline-block;
+  width: 15px;
+  height: 24px;
+  vertical-align: middle;
+  background: url("../img/imgPC-header/data_image_2.png") no-repeat;
+}
+header .header-inner .app-download a .app-text {
+  color: #333333;
+  font-size: 14px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+header .header-inner .app-download a .app-triangle {
+  display: inline-block;
+  border-top: 4px solid #666666;
+  border-right: 4px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 4px solid transparent;
+  transition: .3s;
+  vertical-align: middle;
+}
+header .header-inner .app-download a .download-icon {
+  display: none;
+  width: 132px;
+  background: white;
+  text-align: center;
+  box-sizing: border-box;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+header .header-inner .app-download a .download-icon .down-icon {
+  width: 100%;
+  height: 82px;
+  background: url("../img/imgPC-header/app-link-icon.png") center no-repeat;
+}
+header .header-inner .app-download a .download-icon .down-title {
+  font-size: 14px;
+  color: #333333;
+}
+header .header-inner .app-download a .download-icon .down-content {
+  font-size: 14px;
+  color: #666666;
+}
+header .header-inner .app-download:hover a {
+  border-left: 1px solid #d8d8d8;
+  border-right: 1px solid #d8d8d8 ;
+}
+header .header-inner .app-download:hover a .app-triangle {
+  transform: rotateZ(180deg);
+}
+header .header-inner .app-download:hover a .download-icon {
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  border-left: 1px solid #d8d8d8;
+  display: block;
+}
+header .header-inner form {
+  position: relative;
+}
+header .header-inner form input[type=search] {
+  display: inline-block;
+  width: 260px;
+  height: 40px;
+  outline: none;
+  padding: 0 40px 0 20px;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+  border-radius: 30px;
+  color: #333333;
+}
+header .header-inner form input[type=search]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  position: relative;
+  height: 29px;
+  width: 28px;
+  content: "X";
+  border-radius: 50%;
+  background: url("../img/imgPC-header/1520917472(1).png") no-repeat;
+}
+header .header-inner form input[type=submit] {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #ef4236;
+  background-image: url("../img/imgPC-header/data_image_3.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+header .header-inner .h-user-info a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header .header-inner .h-user-info a img {
+  width: 40px;
+  height: 40px;
+}
+header .header-inner .h-user-info a span {
+  display: inline-block;
+  margin-left: 5px;
+  border-top: 4px solid #666666;
+  border-right: 4px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 4px solid transparent;
+  transition: .3s;
+}
+header .header-inner .h-user-info a p {
+  opacity: 0;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 14px;
+  color: #333333;
+}
+header .header-inner .h-user-info a:hover {
+  outline: 1px solid #d8d8d8;
+}
+header .header-inner .h-user-info a:hover span {
+  transform: rotateZ(180deg);
+}
+header .header-inner .h-user-info a:hover p {
+  opacity: 1;
+  top: 60px;
+  transition: .2s;
+}

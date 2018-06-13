@@ -1,0 +1,93 @@
+header{
+    width: 100%;
+    border-bottom: 2px solid #e02227;
+}
+header>a>img{
+    margin-left: 200px;
+    padding: 10px 0;
+}
+section{
+    margin:40px 0 0 230px;
+}
+section>div:nth-child(1){
+   text-indent: 32px;
+}
+section>div:nth-child(2){
+    text-indent: 90px;
+    margin: 10px 0;
+}
+section>div>input{
+    height: 30px;
+    width: 260px;
+}
+section>div:nth-child(1)>span:nth-child(3){
+    color: #9a9a9a;
+    font-size: 14px;
+}
+section>div>span{
+    padding-right: 5px;
+}
+section>div:nth-child(4){
+    text-indent: 16px;
+    margin-top: 20px;
+}
+section>div:nth-child(5){
+    display: flex;
+    margin:10px 0 10px 90px;
+}
+section>div:nth-child(5)>div{
+    width: 88px;
+    padding: 2px 0;
+    background: #eeeeee;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+section>div:nth-child(5)>div:not(:nth-child(3)){
+    margin-right: 3px;
+}
+section>div:nth-child(6){
+    text-indent: 16px;
+}
+section>button{
+    background: #e53136;
+    border: none;
+    height: 30px;
+    color: white;
+    margin: 10px 0 10px 90px;
+    border-radius: 2px;
+    padding: 0 20px;
+    background: linear-gradient( #ff6b6f, #f43d40, #cc272c);
+}
+section>p{
+    color: #ec464b;
+    font-size: 14px;
+    margin: 0 0 30px 90px;
+}
+input{
+    padding-left: 8px;
+}
+
+footer{
+    width: 100%;
+    margin:0  auto ;
+    font-size: 12px;
+    color: #d1d1d1;
+    border-top: 2px solid #eeeeee;
+}
+
+footer>p{
+    text-align: center;
+    padding-top: 20px;
+}
+.big{
+    width:100%;
+    animation: denglu linear  2s 1;
+    margin: 0 auto;
+}
+@keyframes denglu {
+    0%{
+        width: 10px;
+    }
+
+}

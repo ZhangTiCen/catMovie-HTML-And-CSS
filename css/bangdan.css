@@ -1,0 +1,176 @@
+a{
+text-decoration: none;
+}
+.header{
+    margin-top: 80px;
+    width: 100%;
+    background: #48474b;
+}
+.header>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: nowrap;
+}
+.header>ul>li{
+    margin: 26px 40px;
+    position: relative;
+}
+/*导航点击效果*/
+.header>ul>li>a{
+    color: #9a9a9a;
+    transition: all linear 0.3s;
+}
+.header>ul>li:hover .color{
+    color: #ef4339;
+    text-shadow: 4px 4px 1px black;
+}
+.sanjiaoxing{
+    width:0;
+    height:0;
+    border-top:10px solid #49484c;
+    border-right:10px solid #49484c;
+    border-bottom:10px solid white;
+    border-left:10px solid #49484c;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    display: none;
+}
+.header>ul>li:hover .sanjiaoxing{
+    display: block;
+}
+
+/*内容*/
+section{
+    width: 956px;
+    margin: 70px auto 110px;
+}
+section>div>p{
+    font-size: 12px;
+    color: #9a9a9d;
+}
+section>div>p>span{
+    font-size: 12px;
+    color: #ffb840;
+}
+.section-header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.section-moivepic{
+    display: flex;
+}
+.section-moivepic>ul{
+    display: flex;
+    margin-top: 40px;
+    /*border: 1px solid;*/
+}
+.section-moivepic>ul>li:first-child{
+    margin: 85px 30px 0 0;
+}
+.section-txt{
+    margin-top: 40px;
+    border-bottom: 1px solid #9a9a9d;
+    width: 686px;
+    margin-left: 30px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-txt>div>h1>a{
+    color: #343434;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all linear 0.2s;
+}
+.section-txt>div>h1{
+    margin-bottom: 14px;
+}
+.section-txt>div>h1:hover a{
+    color: #ff483c;
+    text-shadow: 1px 1px 1px black;
+    background: #f9f9fc;
+}
+.section-txt>div>p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.section-txt>div>p:nth-child(2){
+    color: #343434;
+}
+.section-txt>div>p:nth-child(3){
+    color: #9a9a9d;
+}
+.section-txt>div:nth-child(2){
+    margin-top: 20px;
+}
+.pingfen{
+    color: #ffb402;
+    font-size: 45px;
+    font-weight: 900;
+}
+.pingfen1{
+    color: #ffb402;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.paiming{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    background: #ffb402;
+}
+.paiming>p{
+    line-height: 50px;
+    color: white;
+}
+.paiming1{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    background: #f7f7f7;
+}
+.paiming1>p{
+    line-height: 50px;
+    color: #9a9a9a;
+}
+.pic-style{
+    opacity: 0.8;
+    border:  1px solid white;
+    box-sizing: border-box;
+}
+.pic-style:hover{
+    opacity: 1;
+    box-shadow: 3px 6px 20px;
+    border: 1px solid #9a9a9a;
+    box-sizing: border-box;
+}
+
+
+
+
+/*底部*/
+footer{
+    width: 100%;
+    background: #282628;
+}
+footer>p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+footer>p:first-child{
+    padding-top: 50px;
+}
+footer>p:last-child{
+    padding-bottom: 50px;
+}
+

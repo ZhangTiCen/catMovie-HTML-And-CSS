@@ -1,0 +1,146 @@
+a{
+    text-decoration: none;
+}
+
+header,section{
+    width: 900px;
+    /*border: 1px solid;*/
+    margin: 0 auto;
+    padding-top: 40px;
+}
+/*ÄÚÈÝ*/
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section>div:nth-child(2){
+    width: 280px;
+}
+section>div>ul:first-child{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.txt-1>li{
+
+    margin-bottom: 10px;
+}
+.txt-1>li>a{
+    font-size: 14px;
+    color: #585858;
+}
+.phone{
+    display: inline-block;
+    background: url("../img/sprite_webpage.png")-15px -58px;
+    width: 10px;
+    height: 14px;
+    margin-left: 5px;
+    vertical-align: baseline;
+}
+.txt-1>li>a:hover{
+    color: black;
+}
+.txt-2{
+    display: flex;
+    justify-content: space-between;
+}
+.txt-2{
+    font-size: 12px;
+    color: #585858;
+    padding-bottom: 15px;
+}
+.txt-2>li>a{
+    color: #ed1f26;
+}
+.txt-2>li>a:hover{
+    color: #bb2328;
+}
+section>div:nth-child(2)>p{
+    font-size: 14px;
+    color: #585858;
+}
+section>div:nth-child(2)>a{
+    font-size: 14px;
+    color: #ed1f26;
+}
+form>input{
+    width: 243px;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-left: 34px;
+}
+.text{
+    margin-bottom: 20px;
+}
+form{
+    position: relative;
+}
+form>img{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.danxuan{
+    width: 15px;
+    vertical-align:middle;
+    margin: 0 3px 0 0;
+}
+button{
+    width: 281px;
+    background: #e53136;
+    border: none;
+    height: 30px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background: linear-gradient( #ff6b6f, #f43d40, #cc272c);
+}
+span{
+    font-size: 14px;
+    color: #585858;
+}
+span>a{
+    color: #ed1f26;
+}
+span>a:hover{
+    color: #bb2328;
+}
+footer{
+    width: 900px;
+    margin: 70px auto 100px;
+    font-size: 12px;
+    color: #d1d1d1;
+}
+
+footer>p{
+    text-align: center;
+}
+.big{
+    width: 900px;
+    animation: denglu linear  1s 1;
+    margin: 0 auto;
+}
+@keyframes denglu {
+    0%{
+        width: 1px;
+    }
+
+}
+/*.cat{*/
+    /*position: fixed;*/
+    /*right: 0;*/
+    /*top: 100px;*/
+    /*animation: cat linear 5s 10;*/
+    /*opacity: 0;*/
+/*}*/
+/*@keyframes cat {*/
+    /*0%{*/
+        /*opacity: 0.2;*/
+    /*}*/
+    /*50%{*/
+        /*opacity: 0.6*/
+    /*}*/
+    /*100%{*/
+        /*opacity: 1;*/
+    /*}*/
+/*}*/
